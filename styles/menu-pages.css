@@ -1,0 +1,528 @@
+/********************************************
+               CSS Reset
+********************************************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration:none
+}
+
+span {
+  white-space:pre;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+
+#SocialEconomic {
+   position: absolute;
+  z-index: -2
+  height: 130vh;
+  width: 100%;
+  top: 50px;
+
+  opacity: 0.1;
+}
+
+/**/
+
+#blueprint {
+   position: absolute;
+  z-index: -2
+  height: 50vh;
+  width: 100%;
+  
+
+  opacity: 0.05;
+}
+
+#blueprint-2 {
+   position: absolute;
+  z-index: -2
+  height: 50vh;
+  width: 100%;
+
+  top:110vh;
+
+  
+
+  opacity: 0.05;
+}
+
+/**/
+
+#families {
+  position: absolute;
+  z-index: -2
+  height: 100%;
+  width: 100%;
+  top: -50px;
+
+  opacity: 0.1;
+
+/*  z-index: ;*/
+}
+
+/**/
+
+#small {
+   position: absolute;
+  z-index: -2
+  height: 70vh;
+  width: 100%;
+  
+
+  opacity: 0.05;
+}
+
+/**/
+
+#SocialEconomic {
+   position: absolute;
+  z-index: -2
+  height: 130vh;
+  width: 100%;
+  top: 50px;
+
+  opacity: 0.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center li {
+ font-size: 100%;
+padding: 10px;
+padding-left: 20%;
+/*display: flex;*/
+text-align: left;
+  max-width: 90%;
+}
+
+.benifits {
+  font-size: 130%;
+}
+
+.center-list {
+ /* margin: 0 auto;*/
+}
+
+#tab {
+  padding-left: 5em;
+}
+
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+
+/*****************************************************************************************************************************
+Id Selectors
+*****************************************************************************************************************************/
+
+#header-1 {
+  font-size: 300%;
+  color: blue;
+  padding-top: 2%;
+    padding-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+#main-content-h1 {
+
+ color:orange;
+/*  font-size: 170%;*/
+font-size: 2.3vw;
+  font-weight: bold;
+  padding-top: 2%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center; 
+}
+
+#main-content-h1-membership {
+
+ color:orange;
+/*  font-size: 170%;*/
+font-size: 2vw;
+  font-weight: bold;
+  padding-top: 2%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center; 
+}
+
+#p-1 {
+/*font-size: 130%;*/
+font-size: 2vw;
+padding: 10%;
+padding-top: 1%;
+padding-bottom: 3%;
+
+text-align: center;
+
+  max-width: 100%;
+}
+
+#enlist-nav {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: yellow;
+  width: 100%;
+  align-items: flex-end;
+  
+
+}
+
+#back {
+  font-size: 3vw;
+}
+
+
+#Enlist-h1 {
+
+  color:blue;
+  font-size: 170%;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-left: 2em;
+text-align: center; 
+}
+
+#menu-header-text {
+  width: 100%;
+  height: 50px;
+    font-size: 1.3vw;
+  padding-bottom: 34%;
+  padding-top: 5%;
+  color: white;
+  text-align: center;
+}
+
+#TME-Systems {
+  font-size: 170%;
+}
+
+#menu {
+  position: fixed;
+  z-index: 1;
+  display: inline-block;
+  /*       overflow-y: scroll; */
+  overflow-x: hidden;
+  vertical-align: top;
+  height: 100vh;
+  width: 14%;
+  background-color: #222222;
+  padding: 0;
+}
+
+#menu-bottom {
+  position: relative;
+  z-index: 2;
+  top: -25vh;
+  /*   display: inline-block; */
+  vertical-align: top;
+  height: 30vh;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+#menu-box {
+  width: 100%;
+  height: 46px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#menu-box:hover {
+  background-color: lightblue;
+}
+
+#main-content {
+  z-index: 3;
+  width: 86%;
+  height: 100vh;
+  background-color: white;
+  padding: 14%;
+  padding-top: 1%;
+  display: inline-block;
+}
+
+.menu-text-long {
+  font-size: 1.33vmax;
+  max-width: 85%;
+}
+
+.menu-text-box {
+  font-size: 1.5vmax;
+}
+
+.extra-top-padding {
+  padding-top: 2em;
+}
+
+#ntf {
+   position: absolute;
+  z-index: -2
+  height: 110vh;
+  width: 100%;
+  
+
+  opacity: 0.05;
+}
+
+#ntf-2 {
+   position: absolute;
+  z-index: -2
+  height: 110vh;
+  width: 100%;
+  top:110vh;
+  
+
+  opacity: 0.05;
+}
+
+#ntf-3 {
+   position: absolute;
+  z-index: -2
+  height: 110vh;
+  width: 100%;
+  top:220vh;
+  
+
+  opacity: 0.05;
+}
+
+#ntf-4 {
+   position: absolute;
+  z-index: -2
+  height: 110vh;
+  width: 100%;
+  top:330vh;
+  
+
+  opacity: 0.05;
+}
+
+@media (max-width: 900px) {
+ #menu-header-text {
+  font-size: 1.6vw;
+ 
+}
+
+#menu-box {
+  width: 100%;
+  height: 36px;
+
+}
+
+/*.extra-top-padding {
+  padding-top: 2em;
+}*/
+}
+
+@media (max-width: 700px) {
+/* #menu-header-text {
+  font-size: 80%;
+ 
+}
+
+#menu-box {
+  width: 100%;
+  height: 36px;
+
+}
+*/
+
+/* #menu-header-text {
+  font-size: 2vw;
+ 
+}*/
+
+@media (max-width: 730px) {
+
+
+ #menu-header-text {
+  font-size: 1.8vw;
+ 
+}
+/*.extra-top-padding {
+  padding-top: 4em;
+}*/
+}

@@ -1,0 +1,493 @@
+/********************************************
+               CSS Reset
+********************************************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+ overflow: hidden;
+  background-color: white;
+}
+
+a {
+  text-decoration:none
+}
+
+
+
+
+
+
+/********************************************
+               Id Elements
+********************************************/
+
+#menu-header-text {
+  width: 100%;
+  height: 50px;
+  padding-bottom: 34%;
+  padding-top: 5%;
+  color: white;
+  text-align: center;
+}
+
+#TME-Systems {
+  font-size: 170%;
+}
+
+#menu {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  /*       overflow-y: scroll; */
+  overflow-x: hidden;
+  vertical-align: top;
+  height: 100vh;
+  width: 14%;
+  background-color: #222222;
+  justify-content: center;
+}
+
+#menu-bottom {
+  position: relative;
+  z-index: 2;
+  top: -25vh;
+  /*   display: inline-block; */
+  vertical-align: top;
+  height: 30vh;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+#menu-box {
+  width: 100%;
+  height: 46px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#menu-box:hover {
+  background-color: lightblue;
+}
+
+#main-content {
+  z-index: 3;
+  width: 86%;
+  height: 100vh;
+  background-color: grey;
+  display: inline-block;
+}
+
+#main-content-video-1 {
+
+
+}
+
+#modal-navigation {
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+#circle1 {
+    position: relative;
+  display: inline-block;
+  background: transparent;
+  border-style: solid;
+      border-width: 1px;
+  border-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: 5px;
+
+}
+
+#circle2 {
+    position: relative;
+  display: inline-block;
+  background: transparent;
+  border-style: solid;
+      border-width: 1px;
+  border-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+#circle3 {
+     position: relative;
+  display: inline-block;
+  background: transparent;
+  border-style: solid;
+      border-width: 1px;
+  border-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: 5px;
+
+}
+
+#circle4 {
+      position: relative;
+  display: inline-block;
+  background: transparent;
+  border-style: solid;
+      border-width: 1px;
+  border-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: 5px;
+
+}
+
+#circle5 {
+      position: relative;
+  display: inline-block;
+  background: transparent;
+  border-style: solid;
+      border-width: 1px;
+  border-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: 5px;
+
+}
+
+#arrow-left {
+  border: solid black;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#arrow-right {
+  border: solid black;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+
+
+
+
+/**************************************************************************************************************************************
+CSS Classes
+**************************************************************************************************************************************/
+/
+.relative-text {
+  font-size: 100%;
+  margin-top: 15%;
+  color: grey;
+}
+
+.menu-text-long {
+  font-size: 1.33vmax;
+  max-width: 85%;
+}
+
+.menu-text-box {
+  font-size: 1.5vmax;
+}
+
+.relative-text:hover {
+  background-color: lightblue;
+}
+
+/*************************************************************************************/
+
+
+
+/*
+
+This is a scrollbar that can be used
+
+
+ Let's get this party started 
+ ::-webkit-scrollbar {
+    width: 5px;
+ 
+
+}
+ 
+/* Track 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: black; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+::-webkit-scrollbar-track-piece  {
+  background: darkgrey;
+ 
+  
+} 
+*/
+
+
+
+
+
+
+/*****************************************
+               Media Query
+*****************************************/
+
+@media (max-width: 690px) {
+  #menu {
+  /*  width: 24%;*/
+    width: 100%;
+  }
+  #main-content {
+  /*  width: 76%;*/
+    width: 0%;
+  }
+
+  .relative-text {
+    font-size: 90%;
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 960px) {
+
+#menu-header-text {
+  padding-bottom: 10%;
+
+}
+
+  #menu {
+  /*  width: 24%;*/
+    width: 100%;
+  }
+  #main-content {
+  /*  width: 76%;*/
+    width: 0%;
+  }
+
+  #menu-box {
+ padding: 12px;
+ width: 100%;
+}
+
+  .menu-text-box {
+  font-size: 3vmax;
+  width: 100%;
+}
+
+.menu-text-long {
+  font-size: 3vmax;
+ 
+}
+
+  .relative-text {
+    font-size: 90%;
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 900px) {
+ #menu-header-text {
+  font-size: 80%;
+ 
+}
+
+#menu-box {
+  width: 100%;
+  height: 36px;
+
+}
+
+.extra-top-padding {
+  padding-top: 2em;
+}
+}
+
+@media (max-width: 700px) {
+/* #menu-header-text {
+  font-size: 80%;
+ 
+}
+
+#menu-box {
+  width: 100%;
+  height: 36px;
+
+}
+*/
+
+ #menu-header-text {
+  font-size: 60%;
+ 
+}
+/*.extra-top-padding {
+  padding-top: 4em;
+}*/
+}
