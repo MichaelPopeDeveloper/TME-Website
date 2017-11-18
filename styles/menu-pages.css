@@ -112,6 +112,7 @@ section {
 
 body {
   line-height: 1;
+  background-color: #D1F0CE;
 }
 
 ol,
@@ -505,11 +506,21 @@ text-align: center;
   opacity: 0.05;
 }
 
+.promo {
+
+}
+
 
 #video-container {
-  display: flex;
-  flex-direction: column;
   
+  
+}
+
+
+#vid-container-2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 @media (max-width: 900px) {
